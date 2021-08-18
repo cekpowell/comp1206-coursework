@@ -166,3 +166,35 @@
 <p align="center"><img src="images/font sizes.png" alt="distributed_file_storage_system" width="500"/></p> 
 
 ---
+
+## Compilation Guide
+
+- The provided `pom.xml` file can be used with `Maven` to compile, run and build the application.
+
+### Compilation
+
+- Use the following command to **compile** the application:
+
+```bash
+mvn clean compile
+```
+
+### Running 
+
+- Use the following command to **run** the application:
+
+```bash
+mvn javafx:run
+```
+
+### Building
+
+- Use the following command to **build** (package) the application:
+
+```bash
+mvn clean package
+```
+
+- The produced executable `mathdoku-1.0.jar` file will be located in the `target` directory.
+
+---
