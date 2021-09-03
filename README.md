@@ -37,7 +37,6 @@
 
 <video alt="Introduction" src="https://user-images.githubusercontent.com/60888912/132039160-f06449ca-638c-4e69-b768-c51e54efc8b5.mp4" width="550"></video>
 
-<p align="center"><video alt="Introduction" src="https://user-images.githubusercontent.com/60888912/132039160-f06449ca-638c-4e69-b768-c51e54efc8b5.mp4" width="550"></video></p> 
 ---
 
 ## Running the Application
