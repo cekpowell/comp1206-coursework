@@ -35,8 +35,7 @@
 
 - Develop a graphical application that allows the user to play the game of **Mathdoku** using **JavaFX**.
 
-<p align="center"><img src="https://user-images.githubusercontent.com/60888912/132039160-f06449ca-638c-4e69-b768-c51e54efc8b5.mp4" alt="distributed_file_storage_system" width="450"/></p> 
-
+<video alt="Introduction" src="https://user-images.githubusercontent.com/60888912/132039160-f06449ca-638c-4e69-b768-c51e54efc8b5.mp4" width="550"></video>
 ---
 
 ## Running the Application
