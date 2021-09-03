@@ -4,11 +4,38 @@
 
 ---
 
+## Contents
+
+- **[Introduction](#introduction)**
+  * **[Task Description](#task-description)**
+- **[Running the Application](#running-the-application)**
+- **[Usage](#usage)**
+  * **[Starting a Game](#starting-a-game)**
+  * **[Grid Completion/Clearing](#grid-completion-clearing)**
+    + **[Via Keyboard](#via-keyboard)**
+    + **[Via Mouse](#via-mouse)**
+  * **[Undo/Redo](#undo-redo)**
+  * **[Mistake Detection](#mistake-detection)**
+  * **[Win Detection](#win-detection)**
+  * **[Grid Solver](#grid-solver)**
+    + **[Solving Puzzles](#solving-puzzles)**
+    + **[Receiving Hints](#receiving-hints)**
+  * **[Appearance](#appearance)**
+    + **[Font Sizes](#font-sizes)**
+- **[Compilation Guide](#compilation-guide)**
+  * **[Compilation](#compilation)**
+  * **[Running](#running)**
+  * **[Building](#building)**
+
+---
+
 ## Introduction
 
 ### Task Description
 
 - Develop a graphical application that allows the user to play the game of **Mathdoku** using **JavaFX**.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/60888912/132038573-27eacc70-b0a4-4938-b052-765d3d5c353d.mov" alt="distributed_file_storage_system" width="450"/></p> 
 
 ---
 
@@ -40,7 +67,7 @@
 
 - The application should look like this at open:
 
-<p align="center"><img src="images/at_open.png" alt="distributed_file_storage_system" width="400"/></p> 
+<p align="center"><img src="https://user-images.githubusercontent.com/60888912/132037719-020e9675-28af-41bc-b129-8397362e427b.png" alt="distributed_file_storage_system" width="400"/></p> 
 
 ---
 
@@ -58,12 +85,12 @@
   - **Option 2**: Load a game from a text file. The `Select File` button will open a file chooser dialog, where the desired configuration file can be found.
 - **Option 3**: Load a game from text input. When selecting this option, a text area will be enabled, and the configuration for the game can be entered into this area.
 
-<p align="center"><img src="images/settings.png" alt="distributed_file_storage_system" width="400"/></p> 
+<p align="center"><img src="https://user-images.githubusercontent.com/60888912/132037768-c21b51b8-0867-412c-87c8-2663545bd27e.png" alt="distributed_file_storage_system" width="400"/></p> 
 
 - When the desired loading method has been chosen, and the configuration entered/selected, the `Apply Changes` button in the bottom corner of the dialog can be used to apply these changes and load the new game.
 - If there was an error loading the configuration, no game will be loaded, and an error dialog will be displayed on the screen detailing the reason.
 
-<p align="center"><img src="images/new_game.png" alt="distributed_file_storage_system" width="400"/></p> 
+<p align="center"><img src="https://user-images.githubusercontent.com/60888912/132037817-f8b2aea5-b30a-4340-b8cc-86b84c558e55.png" alt="distributed_file_storage_system" width="400"/></p> 
 
 ### Grid Completion/Clearing
 
@@ -112,7 +139,7 @@
   - If there is a mistake in a **row** within the gird, the row containing the mistake will be highlighted **yellow**.
   - If there is a mistake within a **cage** within the grid, the cells of that cage will be highlighted **red**.
 
-<p align="center"><img src="images/show mistakes pop-up.png" alt="distributed_file_storage_system" width="350"/> <img src="images/mistakes shown.png" alt="distributed_file_storage_system" width="350"/> </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/60888912/132037891-4850dea4-daa6-4d03-8491-27cd8c1d37f3.png" alt="distributed_file_storage_system" width="350"/> <img src="images/mistakes shown.png" alt="distributed_file_storage_system" width="350"/> </p>
 
 ### Win Detection
 
@@ -122,7 +149,7 @@
   - A dialog is then displayed on the screen, detailing that the grid is now complete, and containing animated ‘CONGRATULATIONS’ text, which cycles in size.
 - This animation can quickly be demonstrated by making a new random game of size 2 and by completing the grid.
 
-<p align="center"><img src="images/win detection.png" alt="distributed_file_storage_system" width="400"/></p> 
+<p align="center"><img src="https://user-images.githubusercontent.com/60888912/132037969-caad5e1c-c2c9-47d7-9f01-62ad9c6f1ff0.png" alt="distributed_file_storage_system" width="400"/></p> 
 
 ### Grid Solver
 
@@ -135,7 +162,7 @@
   - Each solution consists of a copy of the grid, with the values inserted into the cell in a red font. 
 - If the current grid has no solutions, an error message is displayed detailing that the grid has no solutions, and so nothing can be shown, instead of a confirmation dialog.
 
-<p align="center"><img src="images/solve grid.png" alt="distributed_file_storage_system" width="400"/></p> 
+<p align="center"><img src="https://user-images.githubusercontent.com/60888912/132038027-e1faddbb-1ea7-45b2-838f-3b476565a765.png" alt="distributed_file_storage_system" width="400"/></p> 
 
 #### Receiving Hints
 
@@ -147,7 +174,7 @@
 - If all of the hints have been used, an information dialog is shown detailing that all hints have been used instead of a confirmation box.
 - If the grid is close to completion (less than 3 cells left to be completed), then the ‘Show Hint’ button will display a dialog detailing that no hint can be shown as the grid is too close to completion instead of a confirmation dialog.
 
-<p align="center"><img src="images/show hint.png" alt="show hint" width="400" />
+<p align="center"><img src="https://user-images.githubusercontent.com/60888912/132038104-5cf56e4e-cad3-4b4e-bcb6-49bfc21a5145.png" alt="show hint" width="400" />
 
 ### Appearance
 
@@ -163,7 +190,7 @@
   - Select the desired font size and press the `Apply Changes` button in the bottom right of the settings window.
   - This will now change the font size of the text within the cells (target and value).
 
-<p align="center"><img src="images/font sizes.png" alt="distributed_file_storage_system" width="500"/></p> 
+<p align="center"><img src="https://user-images.githubusercontent.com/60888912/132038168-13e94530-60d8-4e58-855c-03f5a44982da.png" alt="distributed_file_storage_system" width="500"/></p> 
 
 ---
 
