@@ -139,7 +139,9 @@
   - If there is a mistake in a **row** within the gird, the row containing the mistake will be highlighted **yellow**.
   - If there is a mistake within a **cage** within the grid, the cells of that cage will be highlighted **red**.
 
-<p align="center"><img src="https://user-images.githubusercontent.com/60888912/132037891-4850dea4-daa6-4d03-8491-27cd8c1d37f3.png" alt="distributed_file_storage_system" width="450"/> <img src="images/mistakes shown.png" alt="distributed_file_storage_system" width="450"/> </p>
+<img width="840" alt="mistakes shown" src="https://user-images.githubusercontent.com/60888912/132042464-bb1877c7-5d54-4718-8fe1-681301ae0d81.png">
+
+<p align="center"><img src="https://user-images.githubusercontent.com/60888912/132037891-4850dea4-daa6-4d03-8491-27cd8c1d37f3.png" alt="distributed_file_storage_system" width="450"/> <img src="https://user-images.githubusercontent.com/60888912/132042464-bb1877c7-5d54-4718-8fe1-681301ae0d81.png" alt="distributed_file_storage_system" width="450"/> </p>
 
 ### Win Detection
 
